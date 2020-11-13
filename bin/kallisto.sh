@@ -17,5 +17,5 @@ else
     -s .0000001 \
     -i ${kallisto_index} \
     -o ${sample_id}_vs_${params_input_reference_name}.Kallisto.ga \
-    ${sample_id}_1.fastq > ${sample_id}.kallisto.log 2>&1
+    ${sample_id}.fastq > ${sample_id}.kallisto.log 2>&1
 fi
